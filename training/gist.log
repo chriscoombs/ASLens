@@ -1,0 +1,96 @@
+Arguments: train
+[02/11/2018 05:45:28 INFO 140336255473472] Using pretrained model for initalizing weights
+[02/11/2018 05:45:28 INFO 140336255473472] ---- Parameters ----
+[02/11/2018 05:45:28 INFO 140336255473472] num_layers: 18
+[02/11/2018 05:45:28 INFO 140336255473472] epochs: 15
+[02/11/2018 05:45:28 INFO 140336255473472] optimizer: sgd
+[02/11/2018 05:45:28 INFO 140336255473472] momentum: 0.900000
+[02/11/2018 05:45:28 INFO 140336255473472] weight_decay: 0.000100
+[02/11/2018 05:45:28 INFO 140336255473472] learning_rate: 0.010000
+[02/11/2018 05:45:28 INFO 140336255473472] lr_scheduler_step defined without lr_scheduler_factor, will be ignored...
+[02/11/2018 05:45:28 INFO 140336255473472] mini_batch_size: 64
+[02/11/2018 05:45:28 INFO 140336255473472] image_shape: 3,224,224
+[02/11/2018 05:45:28 INFO 140336255473472] num_classes: 24
+[02/11/2018 05:45:28 INFO 140336255473472] num_training_samples: 1728
+[02/11/2018 05:45:28 INFO 140336255473472] augmentation_type: None
+[02/11/2018 05:45:28 INFO 140336255473472] kv_store: device
+[02/11/2018 05:45:28 INFO 140336255473472] checkpoint_frequency: 1
+[02/11/2018 05:45:28 INFO 140336255473472] --------------------
+[05:45:28] /opt/brazil-pkg-cache/packages/AIAlgorithmsMXNet/AIAlgorithmsMXNet-0.12.x.17.0/RHEL5_64/generic-flavor/src/src/nnvm/legacy_json_util.cc:190: Loading symbol saved by previous version v0.8.0. Attempting to upgrade...
+[05:45:28] /opt/brazil-pkg-cache/packages/AIAlgorithmsMXNet/AIAlgorithmsMXNet-0.12.x.17.0/RHEL5_64/generic-flavor/src/src/nnvm/legacy_json_util.cc:198: Symbol successfully upgraded!
+[05:45:33] /opt/brazil-pkg-cache/packages/AIAlgorithmsMXNet/AIAlgorithmsMXNet-0.12.x.17.0/RHEL5_64/generic-flavor/src/src/operator/././cudnn_algoreg-inl.h:106: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+[02/11/2018 05:45:43 INFO 140336255473472] Epoch[0] Batch [20]#011Speed: 159.28 samples/sec#011accuracy=0.618304
+[02/11/2018 05:45:46 INFO 140336255473472] Epoch[0] Train-accuracy=0.690972
+[02/11/2018 05:45:46 INFO 140336255473472] Epoch[0] Time cost=10.708
+[02/11/2018 05:45:46 INFO 140336255473472] Saved checkpoint to "/opt/ml/model/image-classification-0001.params"
+[02/11/2018 05:45:46 INFO 140336255473472] Epoch[0] Validation-accuracy=0.885417
+[02/11/2018 05:45:55 INFO 140336255473472] Epoch[1] Batch [20]#011Speed: 158.78 samples/sec#011accuracy=0.972470
+[02/11/2018 05:45:58 INFO 140336255473472] Epoch[1] Train-accuracy=0.977431
+[02/11/2018 05:45:58 INFO 140336255473472] Epoch[1] Time cost=11.401
+[02/11/2018 05:45:58 INFO 140336255473472] Saved checkpoint to "/opt/ml/model/image-classification-0002.params"
+[02/11/2018 05:45:59 INFO 140336255473472] Epoch[1] Validation-accuracy=0.947917
+[02/11/2018 05:46:08 INFO 140336255473472] Epoch[2] Batch [20]#011Speed: 157.43 samples/sec#011accuracy=0.997768
+[02/11/2018 05:46:10 INFO 140336255473472] Epoch[2] Train-accuracy=0.997685
+[02/11/2018 05:46:10 INFO 140336255473472] Epoch[2] Time cost=11.490
+[02/11/2018 05:46:10 INFO 140336255473472] Saved checkpoint to "/opt/ml/model/image-classification-0003.params"
+[02/11/2018 05:46:11 INFO 140336255473472] Epoch[2] Validation-accuracy=0.953125
+[02/11/2018 05:46:20 INFO 140336255473472] Epoch[3] Batch [20]#011Speed: 156.30 samples/sec#011accuracy=1.000000
+[02/11/2018 05:46:22 INFO 140336255473472] Epoch[3] Train-accuracy=1.000000
+[02/11/2018 05:46:22 INFO 140336255473472] Epoch[3] Time cost=11.584
+[02/11/2018 05:46:23 INFO 140336255473472] Saved checkpoint to "/opt/ml/model/image-classification-0004.params"
+[02/11/2018 05:46:23 INFO 140336255473472] Epoch[3] Validation-accuracy=0.953125
+[02/11/2018 05:46:32 INFO 140336255473472] Epoch[4] Batch [20]#011Speed: 155.37 samples/sec#011accuracy=1.000000
+[02/11/2018 05:46:35 INFO 140336255473472] Epoch[4] Train-accuracy=1.000000
+[02/11/2018 05:46:35 INFO 140336255473472] Epoch[4] Time cost=11.609
+[02/11/2018 05:46:35 INFO 140336255473472] Saved checkpoint to "/opt/ml/model/image-classification-0005.params"
+[02/11/2018 05:46:35 INFO 140336255473472] Epoch[4] Validation-accuracy=0.947917
+[02/11/2018 05:46:44 INFO 140336255473472] Epoch[5] Batch [20]#011Speed: 154.83 samples/sec#011accuracy=1.000000
+[02/11/2018 05:46:47 INFO 140336255473472] Epoch[5] Train-accuracy=1.000000
+[02/11/2018 05:46:47 INFO 140336255473472] Epoch[5] Time cost=11.663
+[02/11/2018 05:46:47 INFO 140336255473472] Saved checkpoint to "/opt/ml/model/image-classification-0006.params"
+[02/11/2018 05:46:47 INFO 140336255473472] Epoch[5] Validation-accuracy=0.953125
+[02/11/2018 05:46:57 INFO 140336255473472] Epoch[6] Batch [20]#011Speed: 154.69 samples/sec#011accuracy=1.000000
+[02/11/2018 05:46:59 INFO 140336255473472] Epoch[6] Train-accuracy=1.000000
+[02/11/2018 05:46:59 INFO 140336255473472] Epoch[6] Time cost=11.702
+[02/11/2018 05:47:00 INFO 140336255473472] Saved checkpoint to "/opt/ml/model/image-classification-0007.params"
+[02/11/2018 05:47:00 INFO 140336255473472] Epoch[6] Validation-accuracy=0.968750
+[02/11/2018 05:47:09 INFO 140336255473472] Epoch[7] Batch [20]#011Speed: 153.25 samples/sec#011accuracy=1.000000
+[02/11/2018 05:47:12 INFO 140336255473472] Epoch[7] Train-accuracy=1.000000
+[02/11/2018 05:47:12 INFO 140336255473472] Epoch[7] Time cost=11.728
+[02/11/2018 05:47:12 INFO 140336255473472] Saved checkpoint to "/opt/ml/model/image-classification-0008.params"
+[02/11/2018 05:47:12 INFO 140336255473472] Epoch[7] Validation-accuracy=0.947917
+[02/11/2018 05:47:21 INFO 140336255473472] Epoch[8] Batch [20]#011Speed: 154.70 samples/sec#011accuracy=1.000000
+[02/11/2018 05:47:24 INFO 140336255473472] Epoch[8] Train-accuracy=1.000000
+[02/11/2018 05:47:24 INFO 140336255473472] Epoch[8] Time cost=11.667
+[02/11/2018 05:47:24 INFO 140336255473472] Saved checkpoint to "/opt/ml/model/image-classification-0009.params"
+[02/11/2018 05:47:25 INFO 140336255473472] Epoch[8] Validation-accuracy=0.963542
+[02/11/2018 05:47:34 INFO 140336255473472] Epoch[9] Batch [20]#011Speed: 154.32 samples/sec#011accuracy=1.000000
+[02/11/2018 05:47:36 INFO 140336255473472] Epoch[9] Train-accuracy=1.000000
+[02/11/2018 05:47:36 INFO 140336255473472] Epoch[9] Time cost=11.675
+[02/11/2018 05:47:37 INFO 140336255473472] Saved checkpoint to "/opt/ml/model/image-classification-0010.params"
+[02/11/2018 05:47:37 INFO 140336255473472] Epoch[9] Validation-accuracy=0.968750
+[02/11/2018 05:47:46 INFO 140336255473472] Epoch[10] Batch [20]#011Speed: 154.29 samples/sec#011accuracy=1.000000
+[02/11/2018 05:47:49 INFO 140336255473472] Epoch[10] Train-accuracy=1.000000
+[02/11/2018 05:47:49 INFO 140336255473472] Epoch[10] Time cost=11.666
+[02/11/2018 05:47:49 INFO 140336255473472] Saved checkpoint to "/opt/ml/model/image-classification-0011.params"
+[02/11/2018 05:47:49 INFO 140336255473472] Epoch[10] Validation-accuracy=0.958333
+[02/11/2018 05:47:58 INFO 140336255473472] Epoch[11] Batch [20]#011Speed: 155.02 samples/sec#011accuracy=1.000000
+[02/11/2018 05:48:01 INFO 140336255473472] Epoch[11] Train-accuracy=1.000000
+[02/11/2018 05:48:01 INFO 140336255473472] Epoch[11] Time cost=11.633
+[02/11/2018 05:48:01 INFO 140336255473472] Saved checkpoint to "/opt/ml/model/image-classification-0012.params"
+[02/11/2018 05:48:02 INFO 140336255473472] Epoch[11] Validation-accuracy=0.953125
+[02/11/2018 05:48:11 INFO 140336255473472] Epoch[12] Batch [20]#011Speed: 155.49 samples/sec#011accuracy=1.000000
+[02/11/2018 05:48:13 INFO 140336255473472] Epoch[12] Train-accuracy=1.000000
+[02/11/2018 05:48:13 INFO 140336255473472] Epoch[12] Time cost=11.603
+[02/11/2018 05:48:13 INFO 140336255473472] Saved checkpoint to "/opt/ml/model/image-classification-0013.params"
+[02/11/2018 05:48:14 INFO 140336255473472] Epoch[12] Validation-accuracy=0.958333
+[02/11/2018 05:48:23 INFO 140336255473472] Epoch[13] Batch [20]#011Speed: 155.38 samples/sec#011accuracy=1.000000
+[02/11/2018 05:48:25 INFO 140336255473472] Epoch[13] Train-accuracy=1.000000
+[02/11/2018 05:48:25 INFO 140336255473472] Epoch[13] Time cost=11.608
+[02/11/2018 05:48:26 INFO 140336255473472] Saved checkpoint to "/opt/ml/model/image-classification-0014.params"
+[02/11/2018 05:48:26 INFO 140336255473472] Epoch[13] Validation-accuracy=0.968750
+[02/11/2018 05:48:35 INFO 140336255473472] Epoch[14] Batch [20]#011Speed: 155.47 samples/sec#011accuracy=1.000000
+[02/11/2018 05:48:38 INFO 140336255473472] Epoch[14] Train-accuracy=1.000000
+[02/11/2018 05:48:38 INFO 140336255473472] Epoch[14] Time cost=11.617
+[02/11/2018 05:48:38 INFO 140336255473472] Saved checkpoint to "/opt/ml/model/image-classification-0015.params"
+[02/11/2018 05:48:38 INFO 140336255473472] Epoch[14] Validation-accuracy=0.953125
